@@ -1,0 +1,12 @@
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\bin\Debug\net6.0\GatewayAPI.Models.deps.json
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\bin\Debug\net6.0\GatewayAPI.Models.dll
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\bin\Debug\net6.0\GatewayAPI.Models.pdb
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\obj\Debug\net6.0\GatewayAPI.Models.csproj.AssemblyReference.cache
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\obj\Debug\net6.0\GatewayAPI.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\obj\Debug\net6.0\GatewayAPI.Models.AssemblyInfoInputs.cache
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\obj\Debug\net6.0\GatewayAPI.Models.AssemblyInfo.cs
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\obj\Debug\net6.0\GatewayAPI.Models.csproj.CoreCompileInputs.cache
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\obj\Debug\net6.0\GatewayAPI.Models.dll
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\obj\Debug\net6.0\refint\GatewayAPI.Models.dll
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\obj\Debug\net6.0\GatewayAPI.Models.pdb
+C:\Users\aalon\Documents\Proyectos\Musala\GatewayAPI.Models\obj\Debug\net6.0\ref\GatewayAPI.Models.dll

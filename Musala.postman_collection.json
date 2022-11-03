@@ -1,0 +1,244 @@
+{
+	"info": {
+		"_postman_id": "ca935012-0cd0-4a54-a30f-620ee058138f",
+		"name": "Musala",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GatewayRequest",
+			"item": [
+				{
+					"name": "GetAllGateways",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7107/api/gateways",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7107",
+							"path": [
+								"api",
+								"gateways"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GatEspecificGateway",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7107/api/gateways/1?includePeripherals=true",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7107",
+							"path": [
+								"api",
+								"gateways",
+								"1"
+							],
+							"query": [
+								{
+									"key": "includePeripherals",
+									"value": "true"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateGateway",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"SerialNumber\": \"753951\",\r\n    \"Name\" : \"China\",\r\n    \"Address\": \"10.25.5.3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7107/api/gateways/create",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7107",
+							"path": [
+								"api",
+								"gateways",
+								"create"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletaGateway",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7107/api/gateways/delete/3",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7107",
+							"path": [
+								"api",
+								"gateways",
+								"delete",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "PeripheralRequest",
+			"item": [
+				{
+					"name": "GetAllPeripherals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7107/api/gateways/peripherals",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7107",
+							"path": [
+								"api",
+								"gateways",
+								"peripherals"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GatEspecificPeripherals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7107/api/gateways/1/peripherals/1",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7107",
+							"path": [
+								"api",
+								"gateways",
+								"1",
+								"peripherals",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "CreateGateway Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "default",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"SerialNumber\": \"753951\",\r\n    \"Name\" : \"China\",\r\n    \"Address\": \"10.25.5.3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7107/api/gateways/create",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7107",
+							"path": [
+								"api",
+								"gateways",
+								"create"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DeletaPeripheral",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://localhost:7107/api/gateways/1/peripherals/delete/",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7107",
+							"path": [
+								"api",
+								"gateways",
+								"1",
+								"peripherals",
+								"delete",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
